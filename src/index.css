@@ -5,9 +5,133 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:#fff;
+  text-align: center;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* // Navabar */
+.navbar{
+  background:#003d99;
+  margin-top: 0;
+  
+}
+.navbar h1{
+  text-align: start;
+  padding-left: 20px;
+  color:#fff;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.navbar p{
+  text-align: end;
+  color:#ccc;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+
+/* list */
+.task-list h1{
+  color: #001133;
+  text-align: start;
+  margin-left: 50px;
+}
+.task-list ul {
+  list-style-type: none;
+  
+  /* background: #99c2ff; */
+}
+.empty{
+  color: #e60000;
+}
+.task-list li{
+  background-color:#0044cc;
+  margin-bottom: 10px;
+  text-align: start;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+.task-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+  
+}
+.title{
+  padding-left: 10px;
+  color: #ddd;
+  font-size: 35px;
+  font-size: bold;
+  text-transform: capitalize;
+}
+.desc{
+  padding-left: 15px;
+  color:#ccc;
+  opacity: 0.8;
+  padding-bottom: 5px;
+}
+
+/* task form */
+.task-form{
+  margin-left:50px ;
+  margin-right: 50px;
+}
+.task-form h1{
+  text-align: center!important;
+  margin-left: 0!important;
+  color: #001133!important;
+  font-weight: bold!important;
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.task-form .task-submitBtn{
+  width: 100%;
+  color:#ccc;
+  background:#002b80;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.task-form .task-submitBtn:hover{
+  color:#002b80;
+  background:green;
+}
+.openModalForm{
+  color:#fff;
+  background-color: blue;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: white;
+  padding:10px;
+  cursor: pointer;
+}
+.openModalForm:hover{
+  color: #002b80;
+}
+.formCloseModel{
+  color: #fff;
+  font-weight: bold;
+  background-color:grey;
+  float: right;
+  font-size: 1.5em;
+  border: #fff;
+  border-radius: 10px;
+  /* padding:px; */
+}
+.formCloseModel:hover{
+ background-color: #e60000; 
 }
